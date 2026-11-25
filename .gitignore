@@ -1,1 +1,20 @@
+# Dataset files
+data/*.csv
+data/*.zip
 
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
